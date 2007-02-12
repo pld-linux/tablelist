@@ -1,5 +1,5 @@
 Summary:	High-level Widget Set for Tcl/Tk
-Summary(pl):	Zestaw widgetów wysokiego poziomu dla Tcl/Tk
+Summary(pl.UTF-8):   Zestaw widgetÃ³w wysokiego poziomu dla Tcl/Tk
 Name:		tablelist
 Version:	4.1
 Release:	0.9
@@ -36,28 +36,28 @@ written in pure Tcl/Tk code. It contains:
  - tutorial;
  - reference pages in HTML format.
 
-%description -l pl
+%description -l pl.UTF-8
 Tablelist to pakiet biblioteki dla Tcl/Tk w wersji 8.0 lub
-pó¼niejszej, napisany w czystym Tcl/Tk. Zawiera:
- - implementacjê mega-widgetu tablelist, zawieraj±c± modu³ ogólnego
-   przeznaczenia dla mega-widgetów;
- - skrypt demonstracyjny zawieraj±cy przydatn± procedurê wy¶wietlaj±c±
-   opcje konfiguracyjne dowolnego widgetu w tablelist i umo¿liwiaj±cy
-   interaktywn± zmianê ich warto¶ci;
- - drugi skrypt demonstracyjny, implementuj±cy prost± przegl±darkê
-   widgetów opart± na tablelist;
- - trzeci skrypt demonstracyjny, pokazuj±cy kilka sposobów poprawienia
-   wygl±du widgetu tablelist;
- - cztery dalsze skrypty demonstracyjne, ilustruj±ce interaktywne
-   modyfikowanie komórek za pomoc± ró¿nych widgetów z samego Tk oraz
-   pakietów tile, BWidget, Iwidgets, combobox (Bryana Oakleya) oraz
+pÃ³Åºniejszej, napisany w czystym Tcl/Tk. Zawiera:
+ - implementacjÄ™ mega-widgetu tablelist, zawierajÄ…cÄ… moduÅ‚ ogÃ³lnego
+   przeznaczenia dla mega-widgetÃ³w;
+ - skrypt demonstracyjny zawierajÄ…cy przydatnÄ… procedurÄ™ wyÅ›wietlajÄ…cÄ…
+   opcje konfiguracyjne dowolnego widgetu w tablelist i umoÅ¼liwiajÄ…cy
+   interaktywnÄ… zmianÄ™ ich wartoÅ›ci;
+ - drugi skrypt demonstracyjny, implementujÄ…cy prostÄ… przeglÄ…darkÄ™
+   widgetÃ³w opartÄ… na tablelist;
+ - trzeci skrypt demonstracyjny, pokazujÄ…cy kilka sposobÃ³w poprawienia
+   wyglÄ…du widgetu tablelist;
+ - cztery dalsze skrypty demonstracyjne, ilustrujÄ…ce interaktywne
+   modyfikowanie komÃ³rek za pomocÄ… rÃ³Å¼nych widgetÃ³w z samego Tk oraz
+   pakietÃ³w tile, BWidget, Iwidgets, combobox (Bryana Oakleya) oraz
    Mentry;
- - kolejny skrypt demonstracyjny, z widgetem tablelist zawieraj±cym
-   zagnie¿d¿one okienka;
- - oparte na tile odpowiedniki wy¿ej wymienionych skryptów
+ - kolejny skrypt demonstracyjny, z widgetem tablelist zawierajÄ…cym
+   zagnieÅ¼dÅ¼one okienka;
+ - oparte na tile odpowiedniki wyÅ¼ej wymienionych skryptÃ³w
    demonstracyjnych;
  - tutorial;
- - podrêcznik w formacie HTML.
+ - podrÄ™cznik w formacie HTML.
 
 %prep
 %setup -q -n %{name}%{version}
