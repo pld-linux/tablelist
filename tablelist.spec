@@ -1,5 +1,5 @@
 Summary:	High-level Widget Set for Tcl/Tk
-Summary(pl.UTF-8):   Zestaw widgetów wysokiego poziomu dla Tcl/Tk
+Summary(pl.UTF-8):	Zestaw widgetów wysokiego poziomu dla Tcl/Tk
 Name:		tablelist
 Version:	4.1
 Release:	0.9
