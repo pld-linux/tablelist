@@ -1,12 +1,12 @@
 Summary:	High-level Widget Set for Tcl/Tk
 Summary(pl.UTF-8):	Zestaw widgetów wysokiego poziomu dla Tcl/Tk
 Name:		tablelist
-Version:	4.1
-Release:	0.9
+Version:	4.8
+Release:	0.1
 License:	BSD-like
 Group:		Development/Languages/Tcl
-Source0:	http://www.nemethi.privat.t-online.de/tablelist/%{name}%{version}.tar.gz
-# Source0-md5:	fb0d64bae243d480b6f8c0926dc191e4
+Source0:	http://www.nemethi.de/tablelist/%{name}%{version}.tar.gz
+# Source0-md5:	c2f36f1dbe4b363b87ed2aacf6f41405
 URL:		http://www.nemethi.de/
 Requires:	tk >= 8.3.3
 BuildArch:	noarch
@@ -65,10 +65,9 @@ późniejszej, napisany w czystym Tcl/Tk. Zawiera:
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name} \
-	$RPM_BUILD_ROOT%{_ulibdir}/%{name}%{version}/{images,scripts}
+	$RPM_BUILD_ROOT%{_ulibdir}/%{name}%{version}/scripts
 
 install *.tcl $RPM_BUILD_ROOT%{_ulibdir}/%{name}%{version}
-install images/*  $RPM_BUILD_ROOT%{_ulibdir}/%{name}%{version}/images
 install scripts/*  $RPM_BUILD_ROOT%{_ulibdir}//%{name}%{version}/scripts
 install demos/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}
 
@@ -80,6 +79,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGES.txt README.txt doc/*
 %dir %{_ulibdir}/%{name}%{version}
 %{_ulibdir}/%{name}%{version}/*.tcl
-%{_ulibdir}/%{name}%{version}/images
 %{_ulibdir}/%{name}%{version}/scripts
 %{_examplesdir}/%{name}
